@@ -120,7 +120,7 @@ header{
 }
 .paragraphRight{
 	float: left;
-	margin-top: 2%;
+	margin: 2% 0;
 }
 	.bulletImage{
 	background-image: url(../img/bullet.png);
@@ -152,7 +152,20 @@ header{
 
 .paragraphBottom{
 	clear:both;
+	margin: 6% 0;
 }
+	.paragraphBottom ul {
+		margin-left: 10%;
+	}
+	.paragraphBottom ul li{		
+		padding-top: 15px;
+		padding-left: 15px;	
+	}
+	.addButton{
+		background-image: url(../img/add.png);
+		background-repeat: no-repeat;
+		padding-top: 15px;
+	}
 
 footer{
 	clear: both;

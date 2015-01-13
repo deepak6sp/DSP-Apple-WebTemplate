@@ -1,0 +1,95 @@
+body{
+	background: -webkit-linear-gradient(#1d1d30,#c2c3c7,#e7e8ea);
+	background-repeat: no-repeat;
+	width:100%;
+	height: auto;
+}
+
+.navbar-default{
+	background: none;
+	border:none;
+	margin-top: 30px;
+}
+
+	.navbar-default .navbar-nav > li > a {
+	  color: #fff;
+	}
+
+	.navbar-default .navbar-nav > li > a:hover {
+	  color: #000;
+	  background-color: #ccc;
+	  border-radius: 5px;
+	}
+
+.jumbotron{
+	height: 420px;
+	margin:50px 0;
+}
+
+.products{
+	margin: 50px 0;
+}
+	.products img{
+		padding-bottom: 10px;
+	}
+	.products .col-sm-6 img{
+		width: 100%;
+	}
+	.icon{
+		padding-right: 10px;
+	}
+
+.services{
+	margin: 50px 0;
+}
+
+	.services p{
+		float: left;
+		padding-bottom: 20px;
+	}
+
+.panel-default{
+	background: transparent;
+	margin: 0 10%;
+	border-left: none;
+	border-right: none;	
+}
+
+.paragraphTop{
+	margin: 50px 0;
+}
+
+.paragraphRight ul li {
+	margin-top: 15px;
+	padding-left: 20px;
+}
+
+	.bulletImage{
+		background-image: url(../img/bullet.png);
+		background-repeat: no-repeat;
+	}
+
+	.btn{
+		margin-top: 30px;
+	}
+
+.paragraphBottom{
+	margin:50px 0;
+}
+
+	.addButton{
+		background-image: url(../img/add.png);
+		background-repeat: no-repeat;
+		padding-left: 15px;
+		margin-top: 15px;
+	}
+
+footer{
+	height: 85px;
+	background: -webkit-linear-gradient(#c2c3c7,#1d1d30);
+	padding-top: 20px;
+}
+	footer img{
+		width: 50px;
+		padding-right: 10px;
+	}
